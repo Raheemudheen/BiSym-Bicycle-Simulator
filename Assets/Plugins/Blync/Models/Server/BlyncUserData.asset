@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2052690883, guid: 687342cf62e14964f9620e5dc2866afa, type: 3}
+  m_Name: BlyncUserData
+  m_EditorClassIdentifier: 
+  blyncRoot: http://localhost:8176/
+  username: Okwy
+  imageUrl: https://storage.googleapis.com/4fec3ee2-dd78-11e6-bf26-cec0c932ce01/butterfly-1829404_640.jpg
+  userId: 4340d7b0-49ea-11eb-81f4-5f0b1fed0a0e
+  lang: en
+  region: r2
+  accessHash: 1ba8d52d1ea5a3cbb582259c72cd68d6

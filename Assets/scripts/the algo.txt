@@ -1,0 +1,16 @@
+0. implement in new script file called ConstantDistanceScript
++figure out where to best attach this. (bike, car, unity scene, etc)
+
+1. api for car controller
++check basic transform override behaviors
++study functions of car controller and car ai controller
++add sample method that can be called from the ConstantDistanceScript
+
+2. prefab position
+
+3. a system with bike as the frame of reference and rest offset from it
+
+4. the fixed distance constant. 
+
+5. find way to access the live prefab instance in the ConstantDisctanceScript. 
++check doing it through the spawn files.

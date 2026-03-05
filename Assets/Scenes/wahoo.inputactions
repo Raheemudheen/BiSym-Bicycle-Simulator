@@ -1,0 +1,68 @@
+{
+    "name": "wahoo",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "076ed978-7a5c-468b-83b6-b66769206e51",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "e740a147-3e5e-4e94-a408-e2b8dba0d3d9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a64aa0ae-48fb-4a3f-8d25-4963e9f6395f",
+                    "path": "*/{Device}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme1",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3e2a036d-0267-4eb7-b936-4dc151fd0a28",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        },
+        {
+            "name": "New control scheme1",
+            "bindingGroup": "New control scheme1",
+            "devices": [
+                {
+                    "devicePath": "<HID>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
